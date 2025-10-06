@@ -18,7 +18,7 @@ public class SerializarService {
         try (FileOutputStream fos = new FileOutputStream("serialT");
              ObjectOutputStream oos = new ObjectOutputStream(fos)) {
             oos.writeObject(producto);
-            System.out.println("Objeto guardado en 'serial' con exito.");
+            System.out.println("Objeto guardado en 'serialT' con exito.");
         } catch (FileNotFoundException e) {
             System.out.println("Archivo no encontrado: " + e.getMessage());
         } catch (IOException e) {

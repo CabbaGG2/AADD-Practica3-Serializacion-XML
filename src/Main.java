@@ -18,6 +18,6 @@ public class Main {
         System.out.println(p4);
 
         XMLService xmlService = new XMLService();
-        xmlService.crearXML("1", "a1", "Alexandre Dumas", "El Conde de Montecristo", "Los miserables");
+        xmlService.crearXML("1", "a1", "Alexandre Dumas", "El Conde de Montecristo", "Los miserables", "a2","Fiodor Dostoyevski","El idiota","Noches blancas");
     }
 }
